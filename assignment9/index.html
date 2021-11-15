@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Personal data form</h1>
+    </header>
+    <section>
+        <article>
+            <h2>Using Post Method</h2>
+            <form action="welcome.html"  onsubmit="return validate()">
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName">
+                </div>
+                <div>
+                    <label for="lastName">Last Name </label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+                <div>
+                    <label for="cityname">City name</label>
+                    <input type="text" name="cityName" id="cityName">
+                </div>
+                
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <h6>Mastek &copy;</h6>
+    </footer>
+    <script src="js/validate.js">
+      </script>
+</body>
+</html>
