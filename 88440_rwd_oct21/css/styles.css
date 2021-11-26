@@ -1,0 +1,239 @@
+
+* {
+    box-sizing: border-box;
+/* --------- --------- --------- */
+}
+body {
+    line-height: 1.5;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+}
+
+.wrapper {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;   
+}
+
+footer,
+header {
+    background-color: #cddcf1;
+}
+
+h1 {
+    font-family: 'Rufina', serif;
+    margin: 0;
+    padding: 12px;
+}
+
+h3,
+h2,
+h1 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;    
+    list-style: none;
+    padding: 0 6px;
+}
+
+.main-nav a {
+    display: block;
+    padding: 3px;
+}
+
+.main-nav li {
+    border: 1px solid white;
+    border-radius: 16px;
+    background-color: white;
+    margin-bottom: 6px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+}
+.profile-pic {
+    border: solid darkgrey 1px;
+    border-radius: 1em;
+    max-width: 80%;
+}
+.intro {
+    color: rgb(70, 65, 65);
+    padding: 0 8px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: rgb(112, 140, 219);
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    display: block;
+    text-align: center;
+}
+
+.skills-list {
+    display: inline-block;
+    list-style-type: disc;
+}
+footer {
+    padding-bottom: 12px;
+}
+
+.footer-nav {
+    border-top: solid darkgray 1px;
+    margin-top: 24px;  
+}
+.name,
+.top {
+    padding: 0 14px 8px;
+}
+#name {
+    float:left;
+}
+.footer-nav li {
+    float:right;  
+    padding: 0 12px;  
+}
+.hide-nav {
+    visibility: hidden;
+    font-size: 0.1em;
+}
+
+/* ----- MEDIA QUERIES ----- */
+@media (min-width: 435px) {
+    .profile-pic {
+        max-width: 60%;
+    }
+}
+@media (min-width: 768px) {
+    .wrapper {
+        width: 90%;
+    }
+    .student-name {
+        text-shadow: 3px 3px 3px darkgray;
+    }
+    .main-nav {
+        text-align: center;
+    }
+    .main-nav li {
+        display: inline-block;
+        padding: 12px 28px;
+        margin: 0 10px;
+    }
+    .profile-pic {
+        float: right;
+        max-width: 50%;
+    }
+    .block {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+        padding: 0 18px;
+        margin-bottom: 26px;
+    }
+    .intro {
+        text-align: left;
+        padding-right: 410px;
+    }
+
+    .pic {
+       width: 90%;
+       height: 80%;
+   }
+    header {
+       padding: 0 12px 12px;
+   }
+    footer,
+    header {
+        margin: 0 auto;    
+        padding-top: 2px
+    }
+    .skills-pic {
+        width: 35%;
+        height: 30%;
+    }
+    .skills-list {
+        margin-bottom: 32px;
+    }
+    
+    footer {
+        box-shadow: 0 -6px 10px darkgrey;
+    }
+    header {
+       box-shadow: 0 8px 14px darkgray;
+    }    
+   
+    #back-to-top {
+       display: none;
+   }
+    .hide-nav {
+       visibility: visible;
+       font-size: 1em;
+   }
+}
+@media (min-width: 1024px) {
+    .wrapper {
+        max-width: 1100px;
+    }
+
+     header,
+     footer {
+        max-width: 1280px;
+    }
+    .student-name {
+        float: left;
+        font-size: 1.8em;  
+           
+    }
+    .test {
+        display: flex;
+        justify-content: space-evenly;
+        
+        
+    }
+    .main-nav li {       
+        margin-bottom: 16px;
+    }
+  
+    .block {
+        width: 30%;
+    }
+    
+    .pic {
+        width: 100%;
+        height: 100%;
+    }
+    .profile-pic {
+        width: 40%;
+        height: 50%;
+        margin: 0 12px;
+    }
+    .student-name,
+    .intro {
+        padding: 0 28px;
+    }
+    .skills-pic {
+        margin-top: 0;
+        width: 30%;
+        height: 25%;
+    }
+}
+/* --------- -- --------- */
+    .clearfix::after {
+    display: table;
+    clear: both;
+    content: "";
+    }
