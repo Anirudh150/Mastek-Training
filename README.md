@@ -1,2 +1,2 @@
 # Mastek-Training
-Hi ,plese use npm i --save express to install package modules.
+Hi ,please use npm i --save express to install package modules.
